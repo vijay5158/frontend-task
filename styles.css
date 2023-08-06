@@ -1,5 +1,5 @@
 .main-section{
-    width: 95%;
+    width: 50%;
     margin: auto;
 }
 
@@ -279,9 +279,8 @@ input[type="radio"]:checked + .details {
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 550px)  {
-    .main-section{
-        width: 50%;
-        margin: auto;
+@media (max-width: 550px) {
+    .main-section {
+        width: 95%;
     }
 }
