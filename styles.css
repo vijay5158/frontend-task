@@ -16,7 +16,7 @@
     text-align: center;
     color: #007F61;
     font-family: "Metropolis", sans-serif;
-    font-size: 20.076px;
+    font-size: 18.076px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -82,7 +82,7 @@
 .pair-label{
     color: #000;
     font-family: "Metropolis", sans-serif;
-    font-size: 18.461px;
+    font-size: 14.461px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,7 +91,7 @@
 .price-label{
     color: #000;
     font-family: "Metropolis", sans-serif;
-    font-size: 16.461px;
+    font-size: 14.461px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -113,7 +113,7 @@
 .prev-p{
     color: #000;
     font-family: Inter;
-    font-size: 11.942px;
+    font-size: 9.942px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -124,7 +124,7 @@
 .off-p2{
     color: #000;
     font-family: Inter;
-    font-size: 14.653px;
+    font-size: 12.653px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -132,7 +132,7 @@
 .off-p{
     color: #000;
     font-family: "Metropolis", sans-serif;
-    font-size: 16.461px;
+    font-size: 14.461px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -142,7 +142,7 @@
 .popular-p{
     color: #007F61;
     font-family: Inter;
-    font-size: 14.653px;
+    font-size: 12.653px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -170,7 +170,7 @@ opacity: 1;
 .th{
     color: #000;
     font-family: Inter;
-    font-size: 11.038px;
+    font-size: 9.038px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -212,7 +212,7 @@ input[type="radio"]:checked + .details {
 .free-span{
     color: #007F61;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -221,7 +221,7 @@ input[type="radio"]:checked + .details {
 .price{
     color: #000;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -242,7 +242,7 @@ input[type="radio"]:checked + .details {
     background: #007F61;
     color: #FFF;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
