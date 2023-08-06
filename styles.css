@@ -1,0 +1,270 @@
+.main-section{
+    max-width: 1000px;
+    width: 60%;
+    margin: auto;
+}
+
+.main-container{
+    min-height: 100vh;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.separate {
+    position: relative;
+    text-align: center;
+    color: #007F61;
+    font-family: "Metropolis", sans-serif;
+    font-size: 18.076px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+  }
+  
+  .separate::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 0.5px;
+    top: 50%;
+    left: 0;
+    background-color: #C8C8C8;
+  }
+  .separate::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 0.5px;
+    top: 50%;
+    right: 0;
+    background-color: #C8C8C8;
+  }
+  
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.box1, .box2, .box3 {
+    /* width: 100%; */
+    padding: 20px;
+    border-radius: 3.615px;
+    border: 0.904px solid #C8C8C8;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.show-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-sec{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.label-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5.88px;
+}
+
+.pair-label{
+    color: #000;
+    font-family: "Metropolis", sans-serif;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-label{
+    color: #000;
+    font-family: "Metropolis", sans-serif;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.second-sec{
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.off-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-end;
+}
+
+.prev-p{
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.off-p2{
+    color: #000;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.off-p{
+    color: #000;
+    font-family: "Metropolis", sans-serif;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.popular-p{
+    color: #007F61;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.details1, .details2, .details3 {
+    /* display: none; */
+    max-height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.details-selected{
+max-height: 500px;
+visibility: visible;
+opacity: 1;
+}
+
+.selected{
+    border-radius: 3.615px;
+    border: 0.904px solid #007F61;
+    background: #F4FBF9;
+}
+
+.th{
+    color: #000;
+    font-family: Inter;
+    font-size: 9.038px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tbody{
+    margin-top: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+
+select{
+    border-radius: 1.808px;
+    border: 0.904px solid #D9D9D9;
+    background: #FFF;
+    width: 65.978px;
+    height: 25.306px;
+}
+
+input[type="radio"]:checked + .details {
+    display: block;
+}
+.total-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.free-span{
+    color: #007F61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+.price{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#price{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.add{
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 4px 4px 4px 0px;
+    background: #007F61;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 48px;
+    border: 0;
+    cursor: pointer;
+}
+
+.copyright{
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-align: end;
+}
+
+@media (max-width: 35em) {
+    .main-section{
+        max-width: unset;
+        width: 95%;
+    }
+}
