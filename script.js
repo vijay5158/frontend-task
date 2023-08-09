@@ -42,10 +42,5 @@ function handleBoxSelection(event) {
         details1.classList.remove("details-selected")
         priceP.innerHTML="DKK 528.00"
     }    
-    // Check if the radio button is checked
-    if (event.target.checked) {
-        // Expand the details section
-    } else {
-        // Collapse the details section
-    }
+
 }
